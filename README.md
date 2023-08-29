@@ -1,2 +1,5 @@
 # faraday-midnight
-If you can see this. Have fun with that theme.
+This is a compilation of:
+
+Midnight (refact0r)
+ComfyGrey (ObjectiveSlayer
