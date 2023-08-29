@@ -17,16 +17,16 @@
 	--divider-color: rgb(255, 255, 255);
 };
 	/* color of accented buttons */
-	--accent-3: hsl(0, 0%, 29%);
+	--accent-3: rgb(204, 51, 51);
 	/* color of accented buttons when hovered */
 	--accent-4: hsl(0, 0%, 65%);
 	/* color of accented buttons when clicked */
 	--accent-5: hsl(0, 0%, 62%);
 
 	/* color of mentions and messages that mention you */
-	--mention: hsla(0, 0%, 100%, 0.1);
+	--mention: hsla(0, 60%, 50%, 0.1);
 	/* color of mentions and messages that mention you when hovered */
-	--mention-hover: hsla(0, 0%, 73%, 0.05);
+	--mention-hover: hsla(0, 60%, 50%, 0.05);
 
 	/* color of bright text on colored buttons */
 	--text-1: hsl(220, 40%, 90%);
@@ -65,20 +65,19 @@
 }
 
 /* fix colors */
-.mentioned-Tre-dv:before /* mention message left edge */,
+.mentioned-Tre-dv:before /* mention message left edge */ {
+	background: red
+}
 .container-1QtPKm.checked-16gMAN /* settings checkbuttons */ {
-	background: var(--accent-3) !important;
+	background: green !important;
 }
 .numberBadge-37OJ3S /* dm unread number */ {
-	background: var(--accent-2) !important;
+	background: red !important;
 	/* color: var(--bg-4); */
 }
 .expandedFolderIconWrapper-3RwQpD svg /* folder icons */,
 .strikethrough-2Kl6HF /* mute button strikethrough */ {
 	color: hsl(0, 0%, 29%);
-}
-.folderIconWrapper-1oRIZr {
-	background-color: transparent !important;
 }
 .container-1QtPKm /* settings checkbuttons default */ {
 	background: var(--bg-1) !important;
@@ -90,7 +89,7 @@
 	--divider-color: hsl(0, 0%, 53%);
 }
 .iconBadge-3Mmg92 /* dm button */ {
-	background: var(--accent-2) !important;
+	background: red !important;
 }
 .theme-dark .container-2IKOsH /* browse channels back */,
 .theme-dark .header-3xB4vB /* browse channels header */,
