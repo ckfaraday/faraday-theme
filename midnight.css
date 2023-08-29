@@ -14,7 +14,7 @@
 	/* color of unread dividers and some indicators */
 	--accent-2: {
 	border-color: var(--divider-color);
-	--divider-color: rgb(255, 255, 255);
+	--divider-color: rgb(255, 0, 0);
 };
 	/* color of accented buttons */
 	--accent-3: rgb(204, 51, 51);
@@ -86,7 +86,7 @@
 	background: var(--message-hover);
 }
 .divider-2rZFJK /* unread dividers */ {
-	--divider-color: hsl(0, 0%, 53%);
+	--divider-color: hsl(0, 100%, 50%);
 }
 .iconBadge-3Mmg92 /* dm button */ {
 	background: red !important;
