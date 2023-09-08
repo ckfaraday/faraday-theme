@@ -4,6 +4,8 @@
 @import url(https://objectiveslayer.github.io/ComfyGray/addons/server-rings.css);
 
 :root {
+	--red-400: hsl(var(--red-400-hsl)/1);
+	--red-400-hsl: 359 calc(var(--saturation-factor, 1)*87.3%) 59.8%;
 	/* amount of spacing and padding */
 	--spacing: 12px;
 	/* radius of round corners */
@@ -13,13 +15,13 @@
 	--accent-1: hsl(197, calc(var(--saturation-factor, 1)*100%), 47.8%);
 	/* color of unread dividers and some indicators */
 	--accent-2: {
-	border-color: var(--divider-color);
+	border-color: var(--red-400);
 	--divider-color: rgb(255, 0, 0);
 };
 	/* color of accented buttons */
 	--accent-3: rgb(204, 51, 51);
 	/* color of accented buttons when hovered */
-	--accent-4: hsl(0, 0%, 65%);
+	--accent-4: var(--accent-3);
 	/* color of accented buttons when clicked */
 	--accent-5: hsl(0, 0%, 62%);
 
