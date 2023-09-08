@@ -340,6 +340,9 @@
 .wordmarkWindows-2dq6rw svg {
 	display: none;
 }
+.colorBrand-26tvUE {
+    color: var(--red-400);
+}
 
 .wordmarkWindows-2dq6rw::before {
 	content: 'Faraday Midnight';
